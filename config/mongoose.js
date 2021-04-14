@@ -17,6 +17,7 @@ module.exports = function () {
     require("../app/models/clinicalvisit.server.model");
     require("../app/models/dailyinfo.server.model");
     require("../app/models/emergencyalert.server.model");
+    require("../app/models/motivation.server.model");
     require("../app/models/user.server.model");
     
     // Return the Mongoose connection instance

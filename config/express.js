@@ -68,6 +68,7 @@ module.exports = function () {
     require("../app/routes/emergencyalert.server.routes.js")(app);
     require("../app/routes/login.server.routes.js")(app);
     require("../app/routes/ml.server.routes.js")(app);
+    require("../app/routes/motivation.server.routes.js")(app);
 
     //Configure static file serving
     app.use(express.static('./public'));
